@@ -60,7 +60,7 @@ h1 {
 #examDescription {
   background-color: #2d83bd;
   color: white;
-
+  width: 90%;
   text-align: justify;
   margin-left: 5%;
 
@@ -75,7 +75,7 @@ h1 {
   text-align: center;
   margin-left: 5%;
   margin-top: 3%;
-
+  width: 90%;
   padding-right: 3%;
   padding-left: 3%;
   padding-top: 2%;
@@ -87,8 +87,6 @@ h1 {
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-
-  padding-bottom: 5%;
 }
 .cardTitle {
   text-align: center;
@@ -98,8 +96,8 @@ h1 {
   background-color: #2d83bd;
 }
 .flip-card {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   margin-left: 5%;
   padding: 10%;
 }
@@ -138,7 +136,8 @@ h1 {
   background-color: #2d83bd;
   color: white;
   transform: rotateY(180deg);
-  padding: 10%;
+  text-align: center;
+  padding: 5%;
   margin: auto;
   font-weight: bold;
 }
