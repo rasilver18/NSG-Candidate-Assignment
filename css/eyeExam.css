@@ -83,7 +83,10 @@ h1 {
   background-color: #c4edff;
   color: black;
 }
-
+.box {
+  margin-left: 3.5%;
+  /* margin-right: 3%; */
+}
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -96,10 +99,11 @@ h1 {
   background-color: #2d83bd;
 }
 .flip-card {
-  width: 500px;
+  max-width: 500px;
   height: 500px;
-  margin-left: 5%;
-  padding: 10%;
+
+  padding-left: 5%;
+  padding-top: 10%;
 }
 
 .flip-card-inner {
@@ -146,6 +150,7 @@ h1 {
   /* display: flex;
     align-items: center;
     justify-content: space-between; */
+  margin-top: 5%;
   padding: 2rem 0rem 2rem 0rem;
   background-color: black;
 }
