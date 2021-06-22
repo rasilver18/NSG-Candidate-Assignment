@@ -24,6 +24,7 @@ html {
 }
 #logo {
   padding-left: 5%;
+  max-width: 90%;
 }
 .nav {
   display: flex;
@@ -60,10 +61,9 @@ h1 {
 #examDescription {
   background-color: #2d83bd;
   color: white;
-
+  max-width: 90%;
   text-align: justify;
   margin-left: 5%;
-
   padding-right: 3%;
   padding-left: 3%;
   padding-top: 2%;
@@ -75,7 +75,7 @@ h1 {
   text-align: center;
   margin-left: 5%;
   margin-top: 3%;
-
+  max-width: 90%;
   padding-right: 3%;
   padding-left: 3%;
   padding-top: 2%;
