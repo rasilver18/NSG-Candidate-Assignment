@@ -87,8 +87,6 @@ h1 {
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-
-  padding-bottom: 5%;
 }
 .cardTitle {
   text-align: center;
@@ -98,8 +96,8 @@ h1 {
   background-color: #2d83bd;
 }
 .flip-card {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   margin-left: 5%;
   padding: 10%;
 }
@@ -138,7 +136,8 @@ h1 {
   background-color: #2d83bd;
   color: white;
   transform: rotateY(180deg);
-  padding: 10%;
+  text-align: center;
+  padding: 5%;
   margin: auto;
   font-weight: bold;
 }
